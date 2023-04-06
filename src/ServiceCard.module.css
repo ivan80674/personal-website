@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: .5rem;
+    text-align: center;
+}
+
+.icon{
+    font-size: 3rem;
+}

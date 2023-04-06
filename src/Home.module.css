@@ -1,0 +1,71 @@
+.home__background{
+    max-width: 100%;
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./alfredo-esposito.jpg");
+    text-align: end;
+    color: white;
+    
+    
+}
+
+
+
+.titleContainer{
+    position: absolute;
+    top: 65%;
+    right: 5%;
+    
+    
+}
+
+.site__subTitle{
+  
+    font-weight: 500;
+    
+
+}
+
+.site__title{
+    font-size: 90px;
+    line-height: 90px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+
+}
+
+@keyframes back{
+    
+    100%{
+        background-position: 2000px 0;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .home__background{
+       background-position: 25%;
+        
+        
+    }
+}
+@media screen and (max-width: 500px){
+    .site__title{
+        font-size: 80px;
+        
+    
+    }
+    .titleContainer{
+        position: absolute;
+        top: 70%;
+        right: 5%;
+        
+        
+    }
+}
